@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define UPPER_LIMIT_STRING_LENGTH 20
+#define UPPER_LIMIT_PATH_LENGTH 256
+#define UPPER_LIMIT_LINES 100
+
 typedef struct
 {
     int howMany;
